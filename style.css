@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Dosis&family=Jura:wght@300..700&family=LXGW+WenKai+Mono+TC&family=Neucha&family=Oswald:wght@200..700&family=Podkova:wght@400..800&family=Tektur:wght@400..900&family=Unbounded:wght@200..900&display=swap');
+*{
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 .love{
     color: rgb(207, 8, 8);
+}
+ main img{
+    height: 30px;
+    width: 30px;
+    border-radius: 14px;
+    padding: 8px;
+}
+.user{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+header h1{
+    text-align: center;
+}
+body{
+    background-color: #14c9bd80;
+}
+ul{
+    height: 600px;
+    width: 400px;
+    overflow: scroll;
+    margin: auto;
+    padding: 16px;
+    list-style: none;
+    border: 4px solid #09645e80;
+    border-radius: 16px;
+    box-sizing:border-box;
+    background-color: bisque;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.letter{
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #14c9bd;
+    border-radius: 8px;
+    padding: 2px 8px;
+    position: sticky;
+    top: 8px;
+
+}
+footer{
+    padding: 18px;
+    text-align: center;
+}
+ul::-webkit-scrollbar { 
+    width: 10px;
+}
+ul::-webkit-scrollbar-track {
+     background: bisque;
+}  
+ul::-webkit-scrollbar-thumb {
+    background-color: #797270; /* Цвет бегунка */
+    border-radius: 20px; /* Округление бегунка */
+    border: 3px solid #797270; /* Оформление границ бегунка */
 }
